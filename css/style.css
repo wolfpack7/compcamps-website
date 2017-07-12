@@ -2,9 +2,9 @@ html, body{
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #898BD7;
+  background-color: red;
   font-family: 'Playfair Display', serif;
-  color:red;
+  color:black;
 }
 ul{
   margin: 0;
@@ -13,22 +13,30 @@ ul{
 a{
   color: white;
   text-decoration: none;
-  font-size: 25px;
-
+  font-size: 30px;
+-webkit-transition: all 0.5s;
 }
 a:hover{
+  -webkit-transition: all 0.5s;
   text-decoration: none;
   color: grey
+  padding:35px;
+  font-size: 35px;
 }
 .nav{
   margin: 0;
   padding: 0;
-  background-color: red;
+  background-color: black;
 }
 
 .nav-link{
   display: inline-block;
   padding: 25px;
+}
+
+
+.paragraph{
+font-size: 35px;
 }
 
 .image{
@@ -38,6 +46,21 @@ a:hover{
 }
 
 .container{
-text-align:center;
+  text-align:center;
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+
+.active{
+  color: red;
+}
+.blackicon{
+  color: black;
+}
+
+.music{
+  margin: 25px;
 
 }
